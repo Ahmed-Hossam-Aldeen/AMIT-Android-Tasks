@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@drawable/shop"
+        android:title="Shop"/>
+    <item
+        android:id="@+id/page_2"
+        android:enabled="true"
+        android:icon="@drawable/explore"
+        android:title="Explore"/>
+    <item
+        android:id="@+id/page_3"
+        android:enabled="true"
+        android:icon="@drawable/cart"
+        android:title="Cart"/>
+    <item
+        android:id="@+id/page_4"
+        android:enabled="true"
+        android:icon="@drawable/favourtie"
+        android:title="Favourite"/>
+    <item
+        android:id="@+id/page_5"
+        android:enabled="true"
+        android:icon="@drawable/account"
+        android:title="Account"/>
+</menu>

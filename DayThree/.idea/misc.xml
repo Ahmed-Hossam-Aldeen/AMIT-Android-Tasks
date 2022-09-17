@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/amit/DayThree/app/src/main/res/drawable/add_item_shape.xml" value="0.327" />
+        <entry key="..\:/AndroidProjects/amit/DayThree/app/src/main/res/drawable/exclusive_list_item_border.xml" value="0.327" />
+        <entry key="..\:/AndroidProjects/amit/DayThree/app/src/main/res/drawable/ic_search.xml" value="0.327" />
+        <entry key="..\:/AndroidProjects/amit/DayThree/app/src/main/res/drawable/search_box_shape.xml" value="0.327" />
+        <entry key="..\:/AndroidProjects/amit/DayThree/app/src/main/res/layout-w600dp/activity_main.xml" value="0.31040564373897706" />
+        <entry key="..\:/AndroidProjects/amit/DayThree/app/src/main/res/layout-w600dp/activty_main.xml" value="0.31040564373897706" />
+        <entry key="..\:/AndroidProjects/amit/DayThree/app/src/main/res/layout/activity_add_to_basket.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidProjects/amit/DayThree/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/amit/DayThree/app/src/main/res/layout/exclusive_list_item.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidProjects/amit/DayThree/app/src/main/res/layout/fragment_exclusive.xml" value="0.358695652173913" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/drawable/add.xml" value="0.224" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/drawable/add_item_shape.xml" value="0.2135" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/drawable/arrow_back.xml" value="0.2245" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/drawable/exclusive_list_item_border.xml" value="0.2245" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/drawable/minus.xml" value="0.2245" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/drawable/number_frame.xml" value="0.2245" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/drawable/search_box_shape.xml" value="0.2245" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/drawable/white_add.xml" value="0.2135" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/layout/activity_add_to_basket.xml" value="0.264" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/layout/activity_my_basket.xml" value="0.24818840579710144" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/layout/exclusive_list_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/layout/fragment_exclusive.xml" value="0.22826086956521738" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/layout/my_basket.xml" value="0.24818840579710144" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/layout/my_navigation_items.xml" value="0.22826086956521738" />
+        <entry key="..\:/My_Android_projects/AMIT_DayThree_OOP_DataBinding_Android-master/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

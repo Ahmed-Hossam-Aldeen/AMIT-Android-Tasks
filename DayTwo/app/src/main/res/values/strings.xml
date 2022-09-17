@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DayOne</string>
+    <string name="searchStore">Search for Products or stores</string>
+</resources>

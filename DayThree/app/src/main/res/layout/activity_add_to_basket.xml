@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+    
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_back"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="20dp"></ImageView>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/upload_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp">
+
+        </ImageView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+            
+    <ImageView
+                android:id="@+id/fruitImage"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:drawableEnd="@drawable/arrow_back"
+                android:src="@drawable/apples"/>
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Natural Red Apple"
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/fruitImage"
+                app:layout_constraintStart_toStartOf="@id/fruitImage"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="25dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/heart"
+                app:layout_constraintTop_toTopOf="@id/label"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="30dp">
+            </ImageView>
+    
+            <TextView
+                android:id="@+id/price"
+                android:textColor="@color/gray2"
+                android:textSize="20sp"
+                android:text="1kg, Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/label"
+                app:layout_constraintTop_toBottomOf="@+id/label"
+                />
+
+            <TextView
+                android:id="@+id/Currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                app:layout_constraintEnd_toEndOf="@id/fruitImage"
+                app:layout_constraintTop_toTopOf="@id/minus"
+                android:text="$4.99"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+
+            <ImageButton
+                android:id="@+id/minus"
+                app:layout_constraintStart_toStartOf="@id/price"
+                app:layout_constraintTop_toBottomOf="@id/price"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="20dp"
+                android:background="@null"
+                android:onClick="decreaseInteger"
+
+                android:src="@drawable/minus"></ImageButton>
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:gravity="center"
+                android:layout_marginEnd="30dp"
+                app:layout_constraintStart_toEndOf="@id/minus"
+                app:layout_constraintTop_toTopOf="@id/add"
+                app:layout_constraintEnd_toEndOf="@id/add"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/number_frame"
+                android:textAlignment="center"
+                ></TextView>
+
+            <ImageButton
+                android:id="@+id/add"
+                app:layout_constraintStart_toEndOf="@id/number"
+                app:layout_constraintBottom_toBottomOf="@+id/minus"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="10dp"
+                android:background="@null"
+                android:onClick="increaseInteger"
+                android:src="@drawable/add"/>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="13dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="@id/label"
+        app:layout_constraintTop_toBottomOf="@id/add" />
+
+    <TextView
+                android:id="@+id/ProductDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Product Detail"
+                app:layout_constraintTop_toBottomOf="@id/minus"
+               app:layout_constraintStart_toStartOf="@id/label"               android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/Details"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="Apples Are Nutritious, Apples May be Good For Weight Loss. Apples May be Good for Your Body. It is Part Of A Healthful And Varifies Diet."
+                app:layout_constraintTop_toBottomOf="@id/ProductDetails"
+                app:layout_constraintStart_toStartOf="@id/label"
+                android:textColor="@color/gray2"
+                android:textSize="14sp"></TextView>
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray"
+                app:layout_constraintStart_toStartOf="@id/label"
+                app:layout_constraintTop_toBottomOf="@id/Details" />
+
+            <TextView
+                android:id="@+id/Nutritions"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Nutritions"
+                app:layout_constraintTop_toBottomOf="@id/Details"
+                app:layout_constraintStart_toStartOf="@id/label"               android:textStyle="bold"
+                android:textColor="@color/black"
+                android:drawableEnd="@drawable/arrow_right"
+                android:textSize="18sp"></TextView>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintStart_toStartOf="@id/label"
+            app:layout_constraintTop_toBottomOf="@id/Nutritions" />
+
+            <TextView
+
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Review"
+                app:layout_constraintTop_toBottomOf="@id/Nutritions"
+                app:layout_constraintStart_toStartOf="@id/label"               android:textStyle="bold"
+                android:textColor="@color/black"
+
+                android:drawableEnd="@drawable/arrow_right"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:id="@+id/addToBasket"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_margin="40dp"
+                android:layout_marginBottom="128dp"
+                android:background="@drawable/add_item_shape"
+                android:padding="20dp"
+                android:text="Add To Basket"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
